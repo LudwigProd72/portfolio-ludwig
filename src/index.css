@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  :root { --bgHeader: white }
+  .dark :root { --bgHeader: black }
+  html, body { font-feature-settings: "ss01" on }
+}
